@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora de Juros Simples</title>
+</head>
+<body>
+
+    <div class="calculadora">
+        <h2>Calculadora de Juros Simples</h2>
+        <label for="capital">Capital (R$):</label>
+        <input type="number" id="capital" placeholder="Digite o capital">
+
+        <label for="taxaJuros">Taxa de Juros (%):</label>
+        <input type="number" id="taxaJuros" placeholder="Digite a taxa de juros">
+
+        <label for="periodo">Período (meses):</label>
+        <input type="number" id="periodo" placeholder="Digite o período em meses">
+
+        <button onclick="calcularJuros()">Calcular</button>
+
+        <h3>Montante com Juros: <span id="montanteComJuros">0</span></h3>
+        <!-- acrescentando botão voltar -->
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
